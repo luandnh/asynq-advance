@@ -5,14 +5,15 @@
 package asynq
 
 import (
-	"github.com/rs/xid"
 	"os"
 	"sync"
 	"time"
 
-	"github.com/sujit-baniya/asynq/internal/base"
-	"github.com/sujit-baniya/asynq/internal/log"
-	"github.com/sujit-baniya/asynq/internal/timeutil"
+	"github.com/rs/xid"
+
+	"github.com/luandnh/asynq-advance/internal/base"
+	"github.com/luandnh/asynq-advance/internal/log"
+	"github.com/luandnh/asynq-advance/internal/timeutil"
 )
 
 // heartbeater is responsible for writing process info to redis periodically to

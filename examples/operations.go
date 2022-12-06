@@ -4,7 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/sujit-baniya/asynq"
+
+	"github.com/luandnh/asynq-advance"
 )
 
 type Operation struct {

@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/go-redis/redis/v8"
-	"github.com/sujit-baniya/asynq/internal/base"
-	"github.com/sujit-baniya/asynq/internal/errors"
-	"github.com/sujit-baniya/asynq/internal/rdb"
+	"github.com/luandnh/asynq-advance/internal/base"
+	"github.com/luandnh/asynq-advance/internal/errors"
+	"github.com/luandnh/asynq-advance/internal/rdb"
 )
 
 // Inspector is a client interface to inspect and mutate the state of

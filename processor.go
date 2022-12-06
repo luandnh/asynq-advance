@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sujit-baniya/asynq/internal/base"
-	asynqcontext "github.com/sujit-baniya/asynq/internal/context"
-	"github.com/sujit-baniya/asynq/internal/errors"
-	"github.com/sujit-baniya/asynq/internal/log"
-	"github.com/sujit-baniya/asynq/internal/timeutil"
+	"github.com/luandnh/asynq-advance/internal/base"
+	asynqcontext "github.com/luandnh/asynq-advance/internal/context"
+	"github.com/luandnh/asynq-advance/internal/errors"
+	"github.com/luandnh/asynq-advance/internal/log"
+	"github.com/luandnh/asynq-advance/internal/timeutil"
 	"golang.org/x/time/rate"
 )
 

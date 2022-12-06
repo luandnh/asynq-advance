@@ -9,7 +9,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/rs/xid"
 	"math"
 	"math/rand"
 	"runtime"
@@ -17,9 +16,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sujit-baniya/asynq/internal/base"
-	"github.com/sujit-baniya/asynq/internal/log"
-	"github.com/sujit-baniya/asynq/internal/rdb"
+	"github.com/rs/xid"
+
+	"github.com/luandnh/asynq-advance/internal/base"
+	"github.com/luandnh/asynq-advance/internal/log"
+	"github.com/luandnh/asynq-advance/internal/rdb"
 
 	"github.com/go-redis/redis/v8"
 )

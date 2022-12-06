@@ -1,4 +1,4 @@
-module github.com/sujit-baniya/asynq
+module github.com/luandnh/asynq-advance
 
 go 1.19
 

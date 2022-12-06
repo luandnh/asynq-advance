@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sujit-baniya/asynq/internal/log"
+	"github.com/luandnh/asynq-advance/internal/log"
 )
 
 // syncer is responsible for queuing up failed requests to redis and retry

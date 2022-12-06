@@ -2,9 +2,10 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/sujit-baniya/asynq"
 	"log"
 	"time"
+
+	"github.com/luandnh/asynq-advance"
 )
 
 const redisAddrWorker = "127.0.0.1:6379"

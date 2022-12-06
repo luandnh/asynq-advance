@@ -6,16 +6,17 @@ package asynq
 
 import (
 	"fmt"
-	"github.com/rs/xid"
 	"os"
 	"sync"
 	"time"
 
+	"github.com/rs/xid"
+
 	"github.com/go-redis/redis/v8"
+	"github.com/luandnh/asynq-advance/internal/base"
+	"github.com/luandnh/asynq-advance/internal/log"
+	"github.com/luandnh/asynq-advance/internal/rdb"
 	"github.com/robfig/cron/v3"
-	"github.com/sujit-baniya/asynq/internal/base"
-	"github.com/sujit-baniya/asynq/internal/log"
-	"github.com/sujit-baniya/asynq/internal/rdb"
 )
 
 // A Scheduler kicks off tasks at regular intervals based on the user defined schedule.

@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/go-redis/redis/v8"
-	"github.com/sujit-baniya/asynq/internal/base"
+	"github.com/luandnh/asynq-advance/internal/base"
 )
 
 type Attachment struct {

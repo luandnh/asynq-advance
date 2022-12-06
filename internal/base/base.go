@@ -16,9 +16,9 @@ import (
 
 	"github.com/go-redis/redis/v8"
 	"github.com/golang/protobuf/ptypes"
-	"github.com/sujit-baniya/asynq/internal/errors"
-	pb "github.com/sujit-baniya/asynq/internal/proto"
-	"github.com/sujit-baniya/asynq/internal/timeutil"
+	"github.com/luandnh/asynq-advance/internal/errors"
+	pb "github.com/luandnh/asynq-advance/internal/proto"
+	"github.com/luandnh/asynq-advance/internal/timeutil"
 	"google.golang.org/protobuf/proto"
 )
 

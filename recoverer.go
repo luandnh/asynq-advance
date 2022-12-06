@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sujit-baniya/asynq/internal/base"
-	"github.com/sujit-baniya/asynq/internal/errors"
-	"github.com/sujit-baniya/asynq/internal/log"
+	"github.com/luandnh/asynq-advance/internal/base"
+	"github.com/luandnh/asynq-advance/internal/errors"
+	"github.com/luandnh/asynq-advance/internal/log"
 )
 
 type recoverer struct {

@@ -5,10 +5,11 @@
 package testutil
 
 import (
-	"github.com/rs/xid"
 	"time"
 
-	"github.com/sujit-baniya/asynq/internal/base"
+	"github.com/rs/xid"
+
+	"github.com/luandnh/asynq-advance/internal/base"
 )
 
 func makeDefaultTaskMessage() *base.TaskMessage {

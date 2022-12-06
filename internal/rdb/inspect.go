@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/go-redis/redis/v8"
+	"github.com/luandnh/asynq-advance/internal/base"
+	"github.com/luandnh/asynq-advance/internal/errors"
 	"github.com/spf13/cast"
-	"github.com/sujit-baniya/asynq/internal/base"
-	"github.com/sujit-baniya/asynq/internal/errors"
 )
 
 // AllQueues returns a list of all queue names.
